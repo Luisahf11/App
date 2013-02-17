@@ -23,5 +23,5 @@ $(document).ready(function(e) {
 });
 
 function isLogin() {
-	return true;	
+	return false;	
 }
