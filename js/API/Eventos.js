@@ -5,7 +5,8 @@ $(document).ready(function(e) {
 	
 	//Funcionalidad Login
 	$('#regSubmit').click(function (){
-		/*if($('#regNombre').val()!='' && $('#regLugar').val()!='' && $('#regEmail').val()!='' && $('#regTel').val()!=''){
+		//if($('#regNombre').val()!='' && $('#regLugar').val()!='' && $('#regEmail').val()!='' && $('#regTel').val()!=''){
+			if($('#regNombre').val()!='' && $('#regLugar').val() !='' && $('#regEmail').val() !='' && $('#regTel').val()!=''){
 			var nom=$('#regNombre').val();
 			var lug=$('#regLugar').val();
 			var ema=$('#regEmail').val();
@@ -15,8 +16,8 @@ $(document).ready(function(e) {
 		}else{
 			
 			alert('Todos los campos son requeridos');
-		}*/
-		alert('hola'); 
+		}
+		 
 	});
 	
 	
