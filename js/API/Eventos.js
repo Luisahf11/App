@@ -11,7 +11,7 @@ $(document).ready(function(e) {
 			var tel=$('#regTel').val();
 			
 			pgAlert("Valores",nom+'\n'+lug+'\n'+ema+'\n'+tel);
-			logSeng(nom,lug,ema,tel);
+			logSend(nom,lug,ema,tel);
 		}else{
 			
 			pgAlert("Error",'Todos los campos son requeridos');
