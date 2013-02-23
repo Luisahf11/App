@@ -4,7 +4,7 @@ $(document).ready(function(e) {
 		if(!isLogin())	
 	window.location.href = "#login";
 		$('#regSubmit').tap(function (){
-			if($('#regNombre').val()!='' && $('#regLugar').val() !='' && $('#regEmail').val() !='' && $('#regTel').val()!=''){
+			if($('#regNombre').val() !='' && $('#regLugar').val() !='' && $('#regEmail').val() !='' && $('#regTel').val() !=''){
 			var nom=$('#regNombre').val();
 			var lug=$('#regLugar').val();
 			var ema=$('#regEmail').val();
