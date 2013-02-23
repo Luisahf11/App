@@ -1,0 +1,15 @@
+http://docs.phonegap.com/en/2.4.0/cordova_accelerometer_accelerometer.md.html#Accelerometer
+
+https://github.com/
+Dar click en el primer paso e instalar el software
+
+
+
+Librerias para crear interfases graficas
+http://jquerymobile.com/
+
+http://jqtouch.com/
+
+
+para complilar la aplicacion
+https://build.phonegap.com/apps/313853/builds
