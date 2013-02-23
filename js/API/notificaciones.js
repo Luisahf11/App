@@ -12,5 +12,5 @@ function pgAlert(tit,com){
 	},"titulo","Si,No,Talvez");
 	navigator,notification.beep(5);
 	*/
-	navigator,notification.vibrate(1000);
+	//navigator,notification.vibrate(100000);
 }
