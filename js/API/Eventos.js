@@ -1,10 +1,9 @@
 //eventos
 $(document).ready(function(e) {
 	document.addEventListener("deviceready", function() {
-		if(!isLogin ())	
+		if(!isLogin())	
 	window.location.href = "#login";
-		$('#regSubmit').click(function (){
-		  //if($('#regNombre').val()!='' && $('#regLugar').val() !='' && $('#regEmail').val() !='' && $('#regTel').val()!=''){
+		$('#regSubmit').tap(function (){
 			if($('#regNombre').val()!='' && $('#regLugar').val() !='' && $('#regEmail').val() !='' && $('#regTel').val()!=''){
 			var nom=$('#regNombre').val();
 			var lug=$('#regLugar').val();
