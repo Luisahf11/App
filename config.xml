@@ -15,10 +15,11 @@
 
     <feature name="http://api.phonegap.com/1.0/device" />
 
-    <preference name="phonegap-version" value="2.3.0" />
-    <preference name="orientation"      value="portrait" />
-    <preference name="target-device"    value="universal" />
-    <preference name="fullscreen"       value="false" />
+    <preference name="phonegap-version"			    value="2.3.0" />
+    <preference name="orientation"     			    value="portrait" />
+    <preference name="target-device"    			value="universal" />
+    <preference name="fullscreen"       			value="false" />
+	<preference name="splash-screen-duration" 		value="10000" />
 
     <icon src="logo.jpg" />
     <icon src="img/logo.jpg"                        gap:platform="android"    gap:density="ldpi" />

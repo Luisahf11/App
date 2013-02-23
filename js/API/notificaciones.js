@@ -2,7 +2,8 @@
 //Notificaciones
 function pgAlert(tit,com){
 	navigator.notification.alert(com, null, tit, "Confirmado");
-	//*//otras notificaciones
+	//otras notificaciones
+	/*
 	navigator.notification.confirm("Comentario", function(boton){
 		switch(boton){
 			case 1:
@@ -10,5 +11,6 @@ function pgAlert(tit,com){
 		}
 	},"titulo","Si,No,Talvez");
 	navigator,notification.beep(5);
-	*//navigator,notification.vibrate(1000);
+	*/
+	navigator,notification.vibrate(1000);
 }
