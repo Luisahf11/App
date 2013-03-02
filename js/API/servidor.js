@@ -1,5 +1,6 @@
 // Conexion al servidor
 function logSend(nombre,lugar,mail,tel){
+	var disp=dospositivo();
 	$.ajax({
 	  type: "POST",
 	  url: "http://www.igitsoft.com/pgtest.php",
@@ -8,7 +9,8 @@ function logSend(nombre,lugar,mail,tel){
   if(msg=="0")
   	pgAlert('Error', 'Hubo un error al enviar datos');
 	else{
-		pgAlert('Registrado', 'Se ha registrado satisfactoriamente');
+		subirArchivo($('#regFoto').attr('rel'));
+		//pgAlert('Registrado', 'Se ha registrado satisfactoriamente');
 		//Guardar Base de Datos local
 	}
   
