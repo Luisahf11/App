@@ -3,6 +3,11 @@ $(document).ready(function(e) {
 	document.addEventListener("deviceready", function() {
 		if(!isLogin())	
 	window.location.href = "#login";
+	//Funcionalidad de tomar foto
+		$('#regFoto').tap(function (){
+			pgAlert(capturaImg());
+		});
+		//Funcionalidad de login
 		$('#regSubmit').tap(function (){
 	if($('#regNombre').val() !='' && $('#regLugar').val() !='' && $('#regEmail').val() !='' && $('#regTel').val() !=''){ 
 			var nom=$('#regNombre').val();
