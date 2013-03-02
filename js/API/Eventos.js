@@ -1,6 +1,5 @@
 //eventos
 $(document).ready(function(e) {
-	//alert('Funciona');
 	document.addEventListener("deviceready", function() {
 		if(!isLogin())	
 	window.location.href = "#login";
@@ -10,7 +9,7 @@ $(document).ready(function(e) {
 		});
 		//Funcionalidad de login
 		$('#regSubmit').click(function(){
-	/*if($('#regNombre').val()!='' && $('#regLugar').val()!='' && $('#regEmail').val()!='' && $('#regTel').val()!=''){ 
+	if($('#regNombre').val()!='' && $('#regLugar').val()!='' && $('#regEmail').val()!='' && $('#regTel').val()!=''){ 
 			var nom=$('#regNombre').val();
 			var lug=$('#regLugar').val();
 			var ema=$('#regEmail').val();
@@ -21,8 +20,7 @@ $(document).ready(function(e) {
 		}else{
 			
 			pgAlert("Error",'Todos los campos son requeridos');
-		}*/
-		alert('Funciona2');
+		}
 		 
 	});
 		
