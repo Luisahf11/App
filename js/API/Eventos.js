@@ -4,11 +4,11 @@ $(document).ready(function(e) {
 		if(!isLogin())	
 	window.location.href = "#login";
 	//Funcionalidad de tomar foto
-		$('#regFoto').click(function(){
+		$('#regFoto').tap(function(){
 			capturaImg();
 		});
 		//Funcionalidad de login
-		$('#regSubmit').click(function(){
+		$('#regSubmit').tap(function(){
 	if($('#regNombre').val()!='' && $('#regLugar').val()!='' && $('#regEmail').val()!='' && $('#regTel').val()!=''){ 
 			var nom=$('#regNombre').val();
 			var lug=$('#regLugar').val();
