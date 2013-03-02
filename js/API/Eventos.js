@@ -5,17 +5,17 @@ $(document).ready(function(e) {
 	window.location.href = "#login";
 	//Funcionalidad de tomar foto
 		$('#regFoto').tap(function (){
-			pgAlert(capturaImg());
+			capturaImg();
 		});
 		//Funcionalidad de login
-		$('#regSubmit').tap(function (){
-	if($('#regNombre').val() !='' && $('#regLugar').val() !='' && $('#regEmail').val() !='' && $('#regTel').val() !=''){ 
+		$('#regSubmit').tap(function(){
+	if($('#regNombre').val()!='' && $('#regLugar').val()!='' && $('#regEmail').val()!='' && $('#regTel').val()!=''){ 
 			var nom=$('#regNombre').val();
 			var lug=$('#regLugar').val();
 			var ema=$('#regEmail').val();
 			var tel=$('#regTel').val();
 			
-			pgAlert("Valores",nom+'\n'+lug+'\n'+ema+'\n'+tel);
+			//pgAlert("Valores",nom+'\n'+lug+'\n'+ema+'\n'+tel);
 			logSend(nom,lug,ema,tel);
 		}else{
 			
