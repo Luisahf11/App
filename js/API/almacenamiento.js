@@ -51,7 +51,7 @@ function guardarReservaciones(id,habs,pers,dias,tipo){
 	}, function (err) {
     pgAlert('Error al guardar la Reservacion',err.code);
 	}, function () {
-    pgAlert('Registro Satisfactorio','Se ha registrado');
+    pgAlert('Reservacion Guardada','Esperando por la conexion a Internet');
 	});
 	
 	

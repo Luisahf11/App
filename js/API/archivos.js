@@ -2,11 +2,11 @@
 function subirArchivo(ruta) {
 	var ft = new FileTransfer();
 
-        ft.upload(path,
+        ft.upload(ruta,
             "http://igitsoft.com/pgtest.php",
             function(result) {
 				crearUsuario();
-				iniciarDB();
+				iniciarBD();
                 
             },
             function(error) {
