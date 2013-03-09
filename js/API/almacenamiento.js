@@ -28,7 +28,7 @@ accesoBD().transaction(function(tx) {
 function getId(){
 	var regreso=0;
 	accesoBD().transaction(function(tx){
-		tx.excuteSql('SELEC * FROM reservas',[], function(tx1,resultado){
+		tx.excuteSql('SELEC * FROM reserva',[], function(tx1,resultado){
 			regreso = resultado.rows.length;
 			//var registrosCount = resuldato.rows.length;
 			
